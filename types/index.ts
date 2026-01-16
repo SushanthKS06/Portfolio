@@ -33,6 +33,7 @@ export interface GitHubRepo {
     name: string;
     description: string;
     stars: number;
+    forks?: number;
     language: string;
     url: string;
     updatedAt: string;
